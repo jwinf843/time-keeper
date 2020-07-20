@@ -1,5 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"s_secondhand","path":"sprites/s_secondhand/s_secondhand.yy",},"order":3,},
+    {"id":{"name":"s_clockface","path":"sprites/s_clockface/s_clockface.yy",},"order":0,},
+    {"id":{"name":"o_clock","path":"objects/o_clock/o_clock.yy",},"order":0,},
+    {"id":{"name":"s_hourhand","path":"sprites/s_hourhand/s_hourhand.yy",},"order":1,},
+    {"id":{"name":"s_minutehand","path":"sprites/s_minutehand/s_minutehand.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
