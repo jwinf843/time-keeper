@@ -11,7 +11,9 @@ draw_self()
 //draw_set_font(PICK A FONT)
 //draw_set_color(lime_green)
 draw_set_halign(fa_center)
-draw_set_valign((fa_center)
+draw_set_valign(fa_center)
 
 // Draw Hands
-draw_sprite_ext()
+draw_sprite_ext(s_hourhand, 0, x, y, 1, 1, hour_angle, c_white, 1)
+draw_sprite_ext(s_minutehand, 0, x, y, 1, 1, minute_angle, c_white, 1)
+draw_sprite_ext(s_secondhand, 0, x, y, 1, 1, second_angle, c_white, 1)
