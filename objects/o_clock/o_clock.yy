@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "s_clockface",
-    "path": "sprites/s_clockface/s_clockface.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

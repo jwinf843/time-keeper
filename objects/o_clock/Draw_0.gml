@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 // Draw Clockface and Accessories
-draw_self()
+//draw_self()
+draw_sprite_ext(s_clockface, 0, x, y, 1, 1, 0, c_white, 1)
 
 // draw_sprite(s_digitime_outline, 0, digitime_x, digitime_y)
 // draw_sprite(s_weekday_outline, 0, weekday_x, weekday_y)

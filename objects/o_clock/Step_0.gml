@@ -2,10 +2,11 @@
 // You can write your code in this editor
 
 day = current_weekday
+offset_angle = 45 // I'm a dumbass and drew these sprites offset 45 degrees
 
-second_angle = -(current_second * 6)
-minute_angle = -(current_minute * 6)
-hour_angle = -((current_hour + (current_minute / 60)) * 30)
+second_angle = -(current_second * 6) + offset_angle
+minute_angle = -(current_minute * 6) + offset_angle
+hour_angle = -((current_hour + (current_minute / 60)) * 30) + offset_angle
 
 ring_angle -= 1
 
